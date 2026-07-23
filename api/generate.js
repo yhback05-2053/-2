@@ -7,7 +7,7 @@
 // 프론트엔드는 절대 Gemini API를 직접 호출하지 않고,
 // 항상 "/api/generate" 라는 주소로 이 함수를 호출합니다.
 
-const MODEL = "gemini-3.5-flash";
+const MODEL = "gemini-3.1-flash-lite";
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`;
 
 // AI에게 역할과 규칙을 알려주는 시스템 프롬프트입니다.
